@@ -81,6 +81,21 @@ public class MapperTests {
         System.out.println(rows);
     }
 
+//    @Test
+//    public void testInsertPost() {
+//        DiscussPost discussPost = new DiscussPost();
+//        discussPost.setId(99999);
+//        discussPost.setStatus(0);
+//        discussPost.setCreateTime(new Date());
+//        discussPost.setContent("内容");
+//        discussPost.setCommentCount(10);
+//        discussPost.setScore(2.5);
+//        discussPost.setTitle("标题");
+//        discussPost.setType(1);
+//        int rows = discussPostMapper.insertDiscussPost(discussPost);
+//        System.out.println(rows);
+//    }
+
     @Test
     public void testInsertLoginTicket() {
         LoginTicket loginTicket = new LoginTicket();
